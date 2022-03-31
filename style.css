@@ -1,0 +1,635 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+
+.image{
+    margin-left: 130px; 
+    margin-top: 8px; 
+    width: 120px; 
+    height: 90px;
+}
+
+.nav .nav-info {
+    width: 50%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control{
+    width: 300px; 
+    height: 40px; 
+    border-radius: 9px; 
+    margin-top: 30px; 
+    font-size: medium;
+}
+
+.info-list{
+    margin-top: 40px;
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,
+    BlinkMacSystemFont,Helvetica Neue,Noto Sans,sans-serif,
+    Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    font-size: large; 
+    display: flex; 
+}
+
+.home{
+    width: 100%;
+    height: 750px;
+    background-color: #f0f0f0;
+    display: flex;
+}
+
+.content{
+    width: 50%;
+    height: 750px;
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,
+    Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,
+    Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    margin-left: 150px;
+    margin-top: 109px;
+    line-height: normal;
+}
+
+.content h4{
+    font-size: 1rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(117 119 121/var(--tw-text-opacity))
+}
+
+.content h4{
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,
+    Segoe UI Symbol,Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+}
+.content h1{
+    /* tab-size: 4; */
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    font-size: 40px;
+}
+
+.content h3{
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.content button{
+    width: 270px;
+    height: 60px;
+    background-color: #1b6be3;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: none;
+    border: 0;
+    margin-top: 25px;
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.home-image{
+    width: 50%;
+    height: 750px;
+    background: url(https://www.indmoney.com/stencil/images?url=/images/usstocks-homepage/hero.png&w=1920&q=100) no-repeat center;
+   
+}
+
+.base{
+    width: 100%;
+    height: 220px;
+    background-color: #ccc7c7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.base .us{
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.base .ind{
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.base .funds{
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.base .fixed{
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.base .bonds{
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.base .more{
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.base h2{
+    tab-size: 4;
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,BlinkMacSystemFont,
+    Helvetica Neue,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,
+    Segoe UI Symbol,Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+}
+
+.first{
+    width: 100%;
+    height: 750px;
+    background-color: #f0f0f0;
+    display: flex;
+}
+
+.text-content{
+    width: 50%;
+    height: 750px;
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,
+    Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,
+    Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    margin-left: 150px;
+    margin-top: 109px;
+    line-height: normal;
+}
+
+.text-content h4{
+    font-size: 1rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(117 119 121/var(--tw-text-opacity))
+}
+
+.text-content h4{
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,
+    Segoe UI Symbol,Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+}
+
+.text-content h1{
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    font-size: 40px;
+}
+
+.text-content h3{
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.family-image{
+    width: 50%;
+    height: 750px;
+    background: url(supersaver-2-in-1-campaign-6-6.webp) no-repeat center;
+   
+}
+
+.footer-bar{
+    width: 100%;
+    height: 30px;
+    color: black;
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    font-size: small;
+    justify-content: center;
+}
+
+.home{
+    width: 100%;
+    height: 750px;
+    background-color: #f0f0f0;
+    display: flex;
+}
+
+.content{
+    width: 50%;
+    height: 750px;
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,
+    Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,
+    Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    margin-left: 150px;
+    margin-top: 109px;
+    line-height: normal;
+}
+
+.content h4{
+    font-size: 1rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(117 119 121/var(--tw-text-opacity))
+}
+
+.content h4{
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,
+    Segoe UI Symbol,Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+}
+.content h1{
+    /* tab-size: 4; */
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    font-size: 40px;
+}
+
+.content h3{
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.invest button{
+    width: 270px;
+    height: 60px;
+    background-color: #1b6be3;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: none;
+    border: 0;
+    margin-top: 25px;
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.invest-image{
+    width: 50%;
+    height: 750px;
+    background: url(hero-section.webp) no-repeat center;
+   
+}
+
+
+.goals button{
+    width: 270px;
+    height: 60px;
+    background-color: #1b6be3;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: none;
+    border: 0;
+    margin-top: 25px;
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    color: #ffffff;
+    font-size: 20px;
+}
+.goals-image{
+    width: 50%;
+    height: 750px;
+    background: url(goals-desktop.svg) no-repeat center;
+   
+}
+
+.finance button{
+    width: 270px;
+    height: 60px;
+    background-color: #1b6be3;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: none;
+    border: 0;
+    margin-top: 25px;
+    font-family: Avenir Next,Roboto,system-ui,
+    -apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    color: #ffffff;
+    font-size: 20px;
+}
+.finance-image{
+    width: 50%;
+    height: 750px;
+    background: url(family-image.svg) no-repeat center;
+   
+}
+
+.slide{
+    width: 100%;
+    height: 630px;
+}
+
+.slide .text-contant h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 500px;
+}
+.base-box{
+    width: 100%;
+    height: 560px;
+    display:  flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 350px;
+    height: 400px;
+    background-color: #283964;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.box2{
+    width: 350px;
+    height: 400px;
+    background-color: #2B3B42;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.box3{
+    width: 350px;
+    height: 400px;
+    background-color: #2D544B;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.box4{
+    width: 350px;
+    height: 400px;
+    background-color: #244461;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.box5{
+    width: 350px;
+    height: 400px;
+    background-color: #523465;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.base-box h2{
+    font-size: 25px;
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,BlinkMacSystemFont,
+    Helvetica Neue,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,
+    Segoe UI Symbol,Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    
+}
+.base-box h4{
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,BlinkMacSystemFont,
+    Helvetica Neue,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,
+    Segoe UI Symbol,Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    padding-left: 10px;
+}
+
+.trust{
+    width: 100%;
+    height: 300px;
+}
+.trust-img{
+    background: url(trusted-by.svg) no-repeat center;
+}
+
+.trust-content{
+    tab-size: 4;
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,BlinkMacSystemFont,
+    Helvetica Neue,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,
+    Segoe UI Symbol,Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    text-align: center;
+}
+.trust-content h3{
+    color: gray;
+}
+
+.comment{
+    width: 100%;
+    height: 600px;
+    background-color: #2D544B;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.base-div{
+    width: 30%;
+    height: 550px;
+    background-color: #2D544B;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.comment .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: url(prs1.png) no-repeat center;
+    position: absolute;
+    margin-left: 150px;
+}
+.commend-dis{
+    width: 95%;
+    height: 500px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: -50px;
+    margin-top: 60px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,BlinkMacSystemFont,
+    Helvetica Neue,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,
+    Segoe UI Symbol,Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+    text-align: center;
+    font-size: 15px;
+}
+
+.blog{
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+}
+.blog-head{
+    text-align: center;
+    font-size: 25px;
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,BlinkMacSystemFont,
+    Helvetica Neue,Noto Sans,sans-serif,Apple Color Emoji,
+    Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open
+}
+.blog-link{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: space-around;
+}
+.link{
+    width: 30%;
+    height: 280px;
+    background-color: #ffffff;
+}
+.img-base{
+    width: 100%;
+    height: 240px;
+}
+.award-page{
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+}
+.award-info{
+    text-align: center;
+    font-size: 25px;
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,BlinkMacSystemFont,
+    Helvetica Neue,Noto Sans,sans-serif,Apple Color Emoji,
+    Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open
+}
+
+.award-box{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: space-around;
+}
+.award-dis{
+    width: 30%;
+    height: 280px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background: black;
+    display: flex;
+}
+.lft-footer{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.rig-footer{
+    width: 50%;
+    height: 300px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,Segoe UI,
+    Oxygen,Ubuntu,Cantarell,Open Sans;
+   
+}
+
+.footer2{
+    width: 100%;
+    height: 600px;
+    background: black;
+    display: flex;
+}
+.lft-footer2{
+    width: 50%;
+    height: 600px;
+    color: #ffffff;
+    padding-left: 20px;
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,Segoe UI,
+    Oxygen,Ubuntu,Cantarell,Open Sans;
+   
+}
+.rig-footer2{
+    width: 50%;
+    height: 600px;
+    color: #ffffff;
+    padding-left: 20px; 
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,Segoe UI,
+    Oxygen,Ubuntu,Cantarell,Open Sans;
+}
+.last-btn{
+    width: 100%;
+    height: 300px;
+    background: #f0f0f0;
+}
+.last-btn button{
+    width: 75%;
+    height: 60px;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 0;
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,
+    Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,Segoe UI,
+    Oxygen,Ubuntu,Cantarell,Open Sans;
+    font-size: medium;
+    font-weight: bold;
+
+}
